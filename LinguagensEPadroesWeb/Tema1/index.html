@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema1</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.897);
+            color: rgb(117, 179, 233);
+        }
+        input, textarea{
+            background-color: black;
+            border-radius: 20px;
+            margin: 5px;
+            padding: 10px;
+        }
+        article{
+            display: flex;
+        }
+        article form{
+            margin: 10px 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biblioteca do Desenvolvedor</h1>
+    <ul>
+        <li><h2>Livro HTML na Pratica!</h2></li>
+        <li><strong>Autor:</strong> Anderson
+        <li><strong>Editora:</strong> Saber
+        <li><strong>Páginas:</strong> 400
+    </ul>
+
+    <article>
+        <form>
+            <h1>Formulário para Mensagens:</h1>
+            <label>Nome:</label>
+            <input type="text" name="" placeholder="Nome">
+            <br>
+            <label>E-mail:</label>
+            <input type="email" name="" placeholder="E-mail">
+            <br>
+            <label>Mensagem:</label>
+            <textarea placeholder="Mensagem" rows="10" cols="18"></textarea>
+            <!--rows: tamanho de linhas cols: tamanho da coluna-->
+        </form>
+    
+        <form>
+            <h1>Formulário (tabela) para Mensagens: (mais organizado)</h1>
+            <table>
+                <tr>
+                    <td><label>Nome:</label></td>
+                    <td><input type="text" name="" placeholder="Nome"></td>
+                </tr>
+                <tr>
+                    <td><label>E-mail:</label></td>
+                    <td><input type="email" name="" placeholder="E-mail"></td>
+                </tr>
+                <tr>
+                    <td><label>Mensagem:</label></td>
+                    <td><textarea placeholder="Mensagem" rows="10" cols="18"></textarea></td>
+                </tr>
+            </table>
+        </form>
+    </article>
+
+</body>
+</html>
