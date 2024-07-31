@@ -1,8 +1,4 @@
-<style>
-    body{
-        text-align: left;
-    }
-</style>
+
 
 # Exercicios Front-end
 
